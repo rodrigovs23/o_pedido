@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffc0cb, #ffe4e1);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1, p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+  transform: scale(1.2);
+}
+
+label {
+  margin-left: 5px;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+.etapa {
+  display: none;
+}
+
+.ativa {
+  display: block;
+}
+
+#nome-final {
+  color: #ff1493;
+  font-weight: bold;
+  text-transform: uppercase;
+}
