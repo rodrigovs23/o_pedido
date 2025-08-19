@@ -37,7 +37,7 @@ let etapaAtual = 0;
       const p1 = document.getElementById("primeiro").checked;
       const p2 = document.getElementById("romantica").checked;
       const p3 = document.getElementById("sexta").checked;
-
+      
       if (p1 && p2 && p3) {
         etapaAtual++;
         mostrarEtapa();
@@ -60,6 +60,8 @@ let etapaAtual = 0;
   const primeiro = document.getElementById("primeiro").checked;
   const romantica = document.getElementById("romantica").checked;
   const sexta = document.getElementById("sexta").checked;
+  
+  
 
   if (primeiro && romantica && sexta) {
     proximaEtapa();
